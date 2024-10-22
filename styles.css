@@ -1,0 +1,115 @@
+/* Dark mode styles with mobile optimization */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    background-image: url('./assets/bg.png'); /* Adding background image */
+    background-size: cover; /* Ensures the background image covers the full screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+img{
+    border-radius: 50%;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(31, 31, 31, 0.4); /* Transparent background */
+    color: white;
+    backdrop-filter: blur(10px); /* Optional backdrop blur for the header */
+    border-radius: 0 0 35px 35px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+section {
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    backdrop-filter: blur(10px); /* Optional backdrop blur for the table */
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    color: #e6e6e6;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(31, 31, 31, 0.4); /* Transparent background */
+    color: white;
+    backdrop-filter: blur(10px); /* Optional backdrop blur for the header */
+    border-radius:35px 35px 0 0;
+}
+/* Responsive design for mobile view */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
