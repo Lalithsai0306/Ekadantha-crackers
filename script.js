@@ -14,7 +14,7 @@ $(document).ready(function() {
                 "Our_price": "Rs.320"
             },
             {
-                "Name": "Fancy Flower pot 5G",
+                "Name": "Fancy Flower Pot 5G",
                 "Quantity": "1 Piece",
                 "Mrp": "Rs.500",
                 "Our_Price": "Rs.350"
