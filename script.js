@@ -1,84 +1,186 @@
 $(document).ready(function() {
     var crackersData = {
-        "items": [
+        "Items": [
             {
-                "name": "31/2 LAXMI",
-                "quantity": "1 BUNDLE (15 PACKS)",
-                "mrp": "Rs. 650",
-                "our_price": "Rs. 350"
+                "Name": "Colour Koti(Flower Pot) ",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.1080",
+                "Our_price": "Rs.600"
             },
             {
-                "name": "4\" LAXMI",
-                "quantity": "1 BUNDLE (10 PACKS)",
-                "mrp": "Rs. 650",
-                "our_price": "Rs. 350"
+                "Name": "Ashoka (Fower pot)",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.510",
+                "Our_price": "Rs.320"
             },
             {
-                "name": "4\" DELUXE LAXMI",
-                "quantity": "1 BUNDLE (10 PACKS)",
-                "mrp": "Rs. 880",
-                "our_price": "Rs. 480"
+                "Name": "Fancy Flower pot 5G",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.500",
+                "Our_Price": "Rs.350"
             },
             {
-                "name": "GOLD LAXMI",
-                "quantity": "1 BUNDLE (10 PACKS)",
-                "mrp": "Rs. 1100",
-                "our_price": "Rs. 550"
+                "Name": "Fancy Magical Peacock",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.1000",
+                "Our_price": "Rs.420"
             },
             {
-                "name": "5\" DELUXE LAXMI",
-                "quantity": "1 BUNDLE (10 PACKS)",
-                "mrp": "Rs. 1250",
-                "our_price": "Rs. 620"
+                "Name": "Ground Chakar Deluxe",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.900",
+                "Our_price": "Rs.300"
             },
             {
-                "name": "2 SOUND",
-                "quantity": "1 BUNDLE (10 PACKS)",
-                "mrp": "Rs. 800",
-                "our_price": "Rs. 400"
+                "Name": "Hydrogen Double Cat Deluxe",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.1650",
+                "Our_price": "Rs.600"
             },
             {
-                "name": "GROUND CHAKAR (BIG)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 300",
-                "our_price": "Rs. 150"
+                "Name": "King Kong",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.375",
+                "Our_Price": "Rs.220"
             },
             {
-                "name": "GROUND CHAKAR (SPECIAL)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 400",
-                "our_price": "Rs. 200"
+                "Name": "Whistling Rocket",
+                "Quantity": "1 Box (6 Pieces)",
+                "Mrp": "Rs.1500",
+                "Our_Price": "Rs.600"
             },
             {
-                "name": "GROUND CHAKAR (DELUXE)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 500",
-                "our_price": "Rs. 250"
+                "Name": "2 Sound Rocket",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.1500",
+                "Our_price": "Rs.500"
             },
             {
-                "name": "GROUND CHAKAR (SPINNER)",
-                "quantity": "1 BUNDLE (5 PIECES)",
-                "mrp": "Rs. 500",
-                "our_price": "Rs. 250"
+                "Name": "Rocket Bomb",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.500",
+                "Our_Price": "Rs.300"
             },
             {
-                "name": "FLOWER POT (SMALL)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 300",
-                "our_price": "Rs. 150"
+                "Name": "Fancy Waterfall Pencil ",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.600",
+                "Our_Price": "Rs.320"
             },
             {
-                "name": "FLOWER POT (BIG)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 400",
-                "our_price": "Rs. 200"
+                "Name": "Maska Chaska (Fancy)",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.550",
+                "Our_price": "Rs.300"
             },
             {
-                "name": "FLOWER POT (SPECIAL)",
-                "quantity": "1 BUNDLE (10 PIECES)",
-                "mrp": "Rs. 500",
-                "our_price": "Rs. 250"
-            }
+                "Name": "4 x 4 Wheel (Fancy)",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.500",
+                "Our_price": "Rs.300"
+            },
+            {
+                "Name": "Angry Bird (Fancy)",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.200",
+                "Our_price": "Rs.150"
+            },
+            {
+                "Name": "Kit-Kat",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.180",
+                "Our_price": "Rs.100"
+            },
+            {
+                "Name": "Twinkling Star",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.890",
+                "Our_price": "Rs.250"
+            },
+            {
+                "Name": "Pencil",
+                "Quantity": "1 Box (10 Pieces)",
+                "Mrp": "Rs.500",
+                "Our_price": "Rs.250"
+            },
+            {
+                "Name": "Guns (small)",
+                "Quantity": "1 Piece",
+                "Mrp": "-",
+                "Our_price": "Rs.50"
+            },
+            {
+                "Name": "Guns (Big)",
+                "Quantity": "1 Piece",
+                "Mrp": "-",
+                "Our_price": "Rs.100"
+            },
+            {
+                "Name": "Mirchi",
+                "Quantity": "1 Pack",
+                "Mrp": "Rs.45",
+                "Our_price": "Rs.30"
+            },
+            {
+                "Name": "28 Wala",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.180",
+                "Our_price": "Rs.100"
+            },
+            {
+                "Name": "100 Wala Deluxe",
+                "Quantity": "1 Piece",
+                "Mrp": "Rs.450",
+                "Our_price": "Rs.300"
+            },
+            {
+                "Name": "1000 Wala",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.900",
+                "Our_price": "Rs.300"
+            },
+            {
+                "Name": "2000 Wala",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.1800",
+                "Our_price": "Rs.550"
+            },
+            {
+                "Name": "5000 Wala",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.3000",
+                "Our_price": "Rs.1300"
+            },
+            {
+                "Name": "10,000 Wala",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.6000",
+                "Our_price": "Rs.2450"
+            },
+            {
+                "Name": "30 Shots",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.1600",
+                "Our_price": "Rs.600"
+            },
+            {
+                "Name": "60 Shots",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.3200",
+                "Our_price": "Rs.1150"
+            },
+            {
+                "Name": "120 Shots",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.6400",
+                "Our_price": "Rs.2250"
+            },
+            {
+                "Name": "240 Shots",
+                "Quantity": "1 Box",
+                "Mrp": "Rs.8500",
+                "Our_price": "Rs.3300"
+            },
         ]
     };
 
