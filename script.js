@@ -185,14 +185,14 @@ $(document).ready(function() {
     };
 
     // Dynamically load data into the table
-    crackersData.items.forEach(function(item) {
+    crackersData.Items.forEach(function(item) {
         var row = `<tr>
             <td>${item.Name}</td>
             <td>${item.Quantity}</td>
             <td>${item.Mrp}</td>
             <td>${item.Our_Price}</td>
         </tr>`;
-        $('#price-table tbody').append(row);
+        $('#Price-table tbody').append(row);
     });
 });
  
